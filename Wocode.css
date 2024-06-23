@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F072B6;
+}
+
+
+
+.nav-items {
+    height: 80px;
+    background-color: #F072B6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0rem;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: gainsboro;
+
+}
+
+h1 {
+    color: gainsboro;
+    line-height: 1;
+    text-decoration: underline;
+    font-size: 500%;
+
+}
+
+h2 {
+    color: rgb(189, 189, 223);
+    font-size: 250%;
+    font-style: italic;
+    line-height: 3;
+}
+
+h3 {
+    color: rgb(189, 189, 223);
+    font-size: 150%;
+    font-style: italic;
+
+}
+
+
+section,
+.news,
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section img,
+.news img,
+.signup img {
+    margin: 10px 0;
+    border-radius: 8px
+}
+
+.connect div,
+.jobevents div {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.connect img,
+.jobevents img {
+    margin: 0 10px;
+    border-radius: 8px
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.button1 {
+    background-color: rgb(214, 121, 214);
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    border: 2px solid gainsboro;
+    transition-duration: 0.4s;
+}
+
+.button2 {
+    background-color: rgb(214, 121, 214);
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    border: 2px solid gainsboro;
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    background-color: gainsboro;
+    color: white;
+}
+
+.button2:hover {
+    background-color: gainsboro;
+    color: white;
+}
